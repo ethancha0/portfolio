@@ -1,3 +1,23 @@
 body{
   font-family: monospace;
+
 }
+
+.portfolio{
+  display: flex;
+
+}
+
+.left-column{
+  flex: 1;
+  border-right: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.right-column{
+  flex:2;
+  padding: 20px;
+}
+

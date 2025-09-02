@@ -1,0 +1,13 @@
+.description{
+    border-right: 2px solid black;
+    max-width: 600px;
+    display: inline-block;
+    flex: 0 0 auto;
+    
+}
+
+h2{
+    color: rgb(67, 27, 27);
+}
+
+
