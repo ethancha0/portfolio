@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+
+.nav-bar li.active {
+  color: blue; /* highlight selected */
+  font-weight: bold;
+}
+
+.nav-bar li {
+  cursor: pointer;
+}

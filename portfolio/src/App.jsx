@@ -3,8 +3,7 @@ import Description from './Description/Description'
 import Project from './Project/Project'
 import SelectedWork from './SelectedWork/SelectedWork'
 
-import PocketPlayerVid from './assets/PocketPlayer/demo-vid.mp4'
-import PocketPlayerImg from './assets/PocketPlayer/popup.png'
+
 
 function App() {
   
@@ -18,8 +17,9 @@ function App() {
       </div>  
 
       <div className="right-column">
+        <SelectedWork/>
 
-        <Project vid={PocketPlayerVid} img1={PocketPlayerImg} title="Pocket Player" description="Sample Description"/>
+         
 
       </div>
 
