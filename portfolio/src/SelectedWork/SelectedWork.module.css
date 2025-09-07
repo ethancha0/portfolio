@@ -9,4 +9,6 @@ a{
 
 .nav-bar li {
   cursor: pointer;
+  font-size: 20px;
 }
+
