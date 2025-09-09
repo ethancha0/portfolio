@@ -36,6 +36,7 @@ function SelectedWork() {
           vid={PocketPlayerVid} 
           img1={PocketPlayerImg} 
           title="Pocket Player" 
+          tech="Technologies used: HTML, CSS, React.js, WebAPI, ChromeAPI"
           description="A V3 Chrome extension that adds
           global shortcuts and pop-up UI to control Picture-in-Picture
            mode and 10-second seek on any site" />
@@ -46,7 +47,10 @@ function SelectedWork() {
           <Project
             vid = {PixelMonVid}
             img1={PixelMonImg}
-            description="Displays any of the 1025 Pokémon in classic sprites"
+            tech = "Technologies used: HTML, CSS, React.js, PokeAPI"
+            description="
+            Game based on the Pokemon Anime to guess the pokemon based on its shadow. 
+            Server based leaderboard coming soon! "
             title="Pixelmon"
           />
         )}

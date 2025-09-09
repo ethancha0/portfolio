@@ -1,6 +1,6 @@
 import styles from './Project.module.css';
 
-function Project({vid, img1, title, description}){
+function Project({vid, img1, title, tech, description}){
 
     return(
         <div className='project'>
@@ -16,7 +16,7 @@ function Project({vid, img1, title, description}){
 
 
             <h1>{title}</h1>
-
+            <p className ={styles.tech}>{tech}<br></br><br></br><br></br></p>
             <p>{description}</p>
 
 

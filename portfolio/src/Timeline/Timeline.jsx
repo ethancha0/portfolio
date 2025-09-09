@@ -16,7 +16,7 @@ function Timeline (){
             </div>
             <div className={styles.entry}>
                 <h3>Fall 2024 - Spring 2025</h3>
-                <p>Picked up low-level programming in C and Assembly</p>
+                <p>Strengthened fundamentals in low-level programming in C and Assembly</p>
             </div>
             <div className={styles.entry}>
                 <h3>Fall 2023 - Spring 2024</h3>
